@@ -1,0 +1,89 @@
+html {
+  font-size: 62.5%;
+}
+
+body {    
+    background-image: url("stadium.jpg");
+    background-size: cover;
+    font-family:  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    margin-top: 5rem;
+    opacity: 90%;
+    text-align: center;
+}
+
+::selection {
+    background: #d9b515;
+    color: blue;    
+}
+
+.container {
+    background: #004df2;
+    border-radius: 1rem;
+    border: 8px solid white;
+    margin: 0 auto;
+    max-width: 40rem;    
+    min-width: 27rem;
+    padding: 0.5rem;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #d9b515;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.btn-wrapper {
+    align-items: center;   
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2rem;   
+    padding: 2rem;
+    width: 10rem; 
+}
+
+button:hover {
+   box-shadow: 0px 0px 30px 20px #d9b515;
+   cursor: pointer;
+}
+#save-el {
+    color: #d9b515;
+    font-size: 1.6rem;
+}
+
+#increment-btn {
+    background: green;
+}
+
+#save-btn {
+    background: blue;
+}
+
+#reset-btn {
+    background: red;
+}
+
+footer {
+    color: white;
+    font-size: 2rem;
+}
+.fc {
+    color: #d9b515;
+    font-weight: bold;
+}
+
